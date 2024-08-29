@@ -1,0 +1,27 @@
+# Commands to Set Up and Run Reconnaissance
+
+## 1. Clone the Repository
+# Replace <repo-url> with your actual repository URL.
+git clone <repo-url>
+cd <repo-dir>
+
+## 2. Make the Installation Script Executable
+chmod +x install_tools.sh
+
+## 3. Run the Installation Script
+./install_tools.sh
+
+## 4. Install Python Dependencies (if needed)
+pip install -r requirements.txt
+
+## 5. Make the Reconnaissance Script Executable
+chmod +x recon_script.sh
+
+## 6. Run the Reconnaissance Script
+# Replace <domain> with the target domain (e.g., example.com).
+./recon_script.sh <domain>
+
+## Example Usage
+# ./recon_script.sh example.com
+
+# Note: Ensure you have proper permissions to run these commands and perform reconnaissance.

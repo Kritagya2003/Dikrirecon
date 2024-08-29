@@ -1,0 +1,25 @@
+# Python packages
+httpx==0.21.1  # httpx tool (may need pip install)
+wappalyzer==1.0.0  # wappalyzer-cli (check installation)
+nuclei==2.4.0  # nuclei (may need manual installation)
+
+# Note: TheHarvester and other non-python tools need to be installed separately.
+
+# Manual Installation / Other package managers
+amass
+sublist3r
+subfinder
+assetfinder
+findomain
+masscan
+naabu
+whatweb
+nikto
+zap  # OWASP ZAP, typically installed manually
+testssl.sh
+sslyze
+gowitness
+dnsenum
+dnsrecon
+gobuster
+ffuf
